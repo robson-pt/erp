@@ -1,0 +1,70 @@
+# Diretórios de ambiente virtual
+venv/
+.env/
+.venv/
+env/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.python-version
+
+# Arquivos de IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+.DS_Store
+*.code-workspace
+
+# Arquivos de banco de dados
+*.db
+*.sqlite3
+*.dump
+*.backup
+
+# Arquivos de configuração sensíveis
+.env
+*.env.local
+*.env.*.local
+secrets.*
+config.json
+
+# Arquivos de log
+*.log
+logs/
+log/
+
+# Arquivos de sistema
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Arquivos de build/distribuição
+dist/
+build/
+*.egg-info/
+*.egg
+__pycache__/
+
+# Arquivos do Docker
+docker-compose.override.yml
+
+# Arquivos de cache
+.cache/
+*.cache
+
+# Arquivos temporários
+*.tmp
+*.temp
+*~
+
+# Arquivos do Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Arquivos de documentação gerados
+docs/_build/

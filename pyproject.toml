@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meu_projeto"
+version = "0.1.0"
+description = "Descrição do meu projeto"
+authors = [{name = "Seu Nome", email = "seu@email.com"}]
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+
+[project.dependencies]
+# Liste suas dependências aqui, por exemplo:
+# numpy = "^1.24.0"
+# pandas = "^2.0.0"
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
